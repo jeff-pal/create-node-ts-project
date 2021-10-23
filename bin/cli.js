@@ -13,7 +13,7 @@ function runCommand(command) {
 }
 
 const dirName = process.argv[2];
-const gitCloneCmd = `git clone --depth 1 https://github.com/jeff-pal/node-ts-basis.git ${dirName}`;
+const gitCloneCmd = `git clone --depth 1 https://github.com/jeff-pal/node-typescript-app.git ${dirName}`;
 const installDependenciesCmd = `cd ${dirName} && npm install`;
 
 const commands = [gitCloneCmd, installDependenciesCmd]

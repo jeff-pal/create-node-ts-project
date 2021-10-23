@@ -5,7 +5,7 @@ This is a nodejs-typescript-based application starter kit. This package creates 
 # Run
 
 ```
-npx create-node-ts <path>
+npx create-node-ts-project <path>
 ```
 
 # Executing binary (command) with [NPX](https://www.npmjs.com/package/npx):

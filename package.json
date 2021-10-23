@@ -1,10 +1,10 @@
 {
-  "name": "create-node-ts",
+  "name": "create-node-ts-project",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
   "bin": "bin/cli.js",
   "repository": {
-    "url": "https://github.com/jeff-pal/create-node-ts.git"
+    "url": "https://github.com/jeff-pal/create-node-ts-project.git"
   }
 }
