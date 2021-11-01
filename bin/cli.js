@@ -6,7 +6,8 @@ function runCommand(command) {
     try {
         execSync(`${command}`, {stdio: 'inherit'})
     } catch (error) {
-        console.error(`Failed to execute ${command}`, error);
+        console.error(`Failed to execute "${command}"`, error);
+        console.error('Check if the target folder is actually empty.');
         return false;
     }
     return true;
