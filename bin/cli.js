@@ -15,9 +15,10 @@ function runCommand(command) {
 
 const dirName = process.argv[2] || '.';
 const gitCloneCmd = `git clone --depth 1 https://github.com/jeff-pal/node-typescript-app.git ${dirName}`;
+const removeDotGit = `rm -rf ${dirName}/.git`;
 const installDependenciesCmd = `cd ${dirName} && npm install`;
 
-const commands = [gitCloneCmd, installDependenciesCmd]
+const commands = [gitCloneCmd, installDependenciesCmd, removeDotGit]
 
 commands.forEach(command => {
     const commandSucceed = runCommand(command)
